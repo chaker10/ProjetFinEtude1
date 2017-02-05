@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/accel">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            app:srcCompat="@drawable/atb1"
+            android:id="@+id/imageView"
+            android:layout_weight="0.12" />
+
+        <Button
+            android:text="Login"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:onClick="btn_login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+             android:text="Localisation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_locats"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:text="Contrat"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_contrat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
